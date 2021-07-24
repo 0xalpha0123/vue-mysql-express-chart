@@ -1,0 +1,53 @@
+{
+  "name": "vue-chart",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "npm run serve",
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "bootstrap": "^4.5.2", 
+    "chart.js": "^2.9.3",
+    "cors": "^2.8.5",
+    "vue": "^2.5.16",
+    "vue-chartjs": "^3.5.0",
+    "vue-bootstrap-toasts": "^1.0.7",
+    "vue-router": "^3.4.2",
+    "vuelidate": "^0.7.5",
+    "vuex": "^3.5.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.0.0-beta.16",
+    "@vue/cli-plugin-eslint": "^3.0.0-beta.16",
+    "@vue/cli-service": "^3.0.0-beta.16",
+    "vue-template-compiler": "^2.5.16"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
